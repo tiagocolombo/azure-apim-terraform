@@ -47,3 +47,7 @@ variable "product" {
 variable "subscription" {
     type = map
 }
+
+variable "user" {
+    type = map
+}

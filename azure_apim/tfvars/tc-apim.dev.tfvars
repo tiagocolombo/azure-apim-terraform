@@ -11,15 +11,20 @@ tags = {
 apimSku = "Consumption"
 apimSkuCapacity = 0
 apimPublisherName = "Tiago Colombo Dev"
-apimPublisherEmail = "tcolombo+apim@gmail.com"
+apimPublisherEmail = "developer@company.com"
 
 product = {
     productId = "tc-apis"
     productName = "TC APIs"
     subscriptionRequired = true
-    subscriptionsLimit = 10
+    subscriptionsLimit = 5
     approvalRequired = true
     published = true
+}
+
+user = {
+    firstName = "Public Web",
+    email = "developer@email.com"
 }
 
 subscription = {
