@@ -40,7 +40,7 @@ This section gives definitions for the terms that are specific to API Management
 
 * **APIM Policies**: With policies, an API publisher can change the behavior of an API through configuration. Policies are a collection of statements that are executed sequentially on the request or response of an API. Popular statements include format conversion from XML to JSON and call-rate limiting to restrict the number of incoming calls from a developer. For a complete list, see [API Management policies](https://docs.microsoft.com/en-us/azure/api-management/api-management-policies).
 
-![APIM structure](media/product-subscription.png)
+![APIM structure](https://docs.microsoft.com/en-us/azure/api-management/media/api-management-subscriptions/product-subscription.png)
 
 **Source**: https://docs.microsoft.com/en-ca/azure/api-management/api-management-terminology#term-definitions
 
