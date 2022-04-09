@@ -68,8 +68,8 @@ Follow these steps in order to setup the API services to your Azure subscription
 
 * Log in to Azure using `azure cli` or Azure Cloud Shell
 * Set your subscription by running the following command: `az account set -s "{subscription_id}"`
-* Run `terraform init`, and then, run `terraform plan -var-file="tfvars/tc-apim.dev.tfvars"`
-* If there's no errors, run `terraform apply -var-file="tfvars/tc-apim.dev.tfvars"` to create the resources in Azure.
+* Run `terraform init -backend-config="backend/backend.dev"`, and then, run `terraform plan -var-file="tfvars/tc-apim.dev.tfvars"`
+* If there's no errors, run `terraform apply -var-file="tfvars/tc-apim.dev.tfvars"` to create the resources in Azure. Add `--auto-approve` if you don't want to be prompted to confirm the changes.
 
 ## Additional Resources
 [Protect your API](https://docs.microsoft.com/en-us/azure/api-management/transform-api)
